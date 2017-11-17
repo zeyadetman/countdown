@@ -1,0 +1,23 @@
+.App{
+    text-align: center;
+    margin: 5% auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-size: 2em;
+  }
+  .timer {
+    display: inline-flex;
+    font-size: 1.1em;
+  }
+
+  .days, .hours, .minutes, .seconds{
+      margin: 5px 5px 5px 5px;
+  }
+
+  #userDate{
+      width:20%;
+    margin: 0 auto;
+  }
